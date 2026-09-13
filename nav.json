@@ -49,6 +49,12 @@
               "title": "笔记模板",
               "type": "md",
               "path": "notes/note-template"
+            },
+            {
+              "id": "notes-requests-practice",
+              "title": "����ʵս�ʼ�",
+              "type": "md",
+              "path": "notes/requests-practice"
             }
           ]
         }
