@@ -58,7 +58,7 @@
             },
             {
               "id": "word",
-              "title": "Word �������",
+              "title": "Word 导入测试",
               "type": "md",
               "path": "notes/word-import-test"
             }
