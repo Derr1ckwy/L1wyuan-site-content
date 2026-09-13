@@ -1,0 +1,28 @@
+name: Notify site repo that content changed
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: Derr1ckwy
+          repositories: l1wyuan-site
+
+      - name: Dispatch content-updated event to site repo
+        run: |
+          gh api repos/Derr1ckwy/l1wyuan-site/dispatches \
+            -f event_type=content-updated \
+            -F "client_payload[source]=${{ github.repository }}" \
+            -F "client_payload[ref]=${{ github.sha }}"
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
