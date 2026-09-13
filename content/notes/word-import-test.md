@@ -2,7 +2,7 @@
 
 This file verifies the docx to Markdown conversion pipeline\.
 
-It contains a heading and two plain paragraphs\.
+It contains headings and plain paragraphs exported from Word\.
 
 ## Second Level Heading
 
