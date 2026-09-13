@@ -55,6 +55,12 @@
               "title": "爬虫实战笔记",
               "type": "md",
               "path": "notes/requests-practice"
+            },
+            {
+              "id": "word",
+              "title": "Word �������",
+              "type": "md",
+              "path": "notes/word-import-test"
             }
           ]
         }
