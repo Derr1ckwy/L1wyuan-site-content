@@ -63,6 +63,11 @@
               "path": "notes/word-import-test"
             }
           ]
+        },
+        {
+          "id": "e2e",
+          "title": "E2E测试栏目",
+          "items": []
         }
       ]
     },
