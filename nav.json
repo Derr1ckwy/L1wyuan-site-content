@@ -67,7 +67,14 @@
         {
           "id": "e2e",
           "title": "E2E测试栏目",
-          "items": []
+          "items": [
+            {
+              "id": "e2e",
+              "title": "E2E栏目文档",
+              "type": "md",
+              "path": "notes/e2e"
+            }
+          ]
         }
       ]
     },
