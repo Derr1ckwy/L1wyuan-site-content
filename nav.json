@@ -61,12 +61,6 @@
               "title": "Word 导入测试",
               "type": "md",
               "path": "notes/word-import-test"
-            },
-            {
-              "id": "apitest-reg",
-              "title": "API������Ŀ",
-              "type": "md",
-              "path": "apitest/reg"
             }
           ]
         }
