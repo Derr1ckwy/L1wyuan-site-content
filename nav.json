@@ -61,12 +61,6 @@
               "title": "Word 导入测试",
               "type": "md",
               "path": "notes/word-import-test"
-            },
-            {
-              "id": "e2e-create-test",
-              "title": "E2E 新建测试笔记",
-              "type": "md",
-              "path": "notes/e2e-create-test"
             }
           ]
         }
