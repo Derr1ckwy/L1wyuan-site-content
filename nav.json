@@ -63,6 +63,11 @@
               "path": "notes/word-import-test"
             }
           ]
+        },
+        {
+          "id": "test",
+          "title": "test",
+          "items": []
         }
       ]
     },
